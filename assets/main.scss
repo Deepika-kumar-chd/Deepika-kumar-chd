@@ -1,0 +1,39 @@
+@import "minima";
+
+p {
+  text-align: justify;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+li {
+	padding-top: 0.25em;
+  padding-bottom: 0.25em;
+}
+
+table {
+  margin-bottom: 1em;
+  border: transparent;
+  tr {
+    &:nth-child(even) {
+      background-color: transparent;
+    }
+  }
+  th, td {
+    padding: 0.33em;
+  }
+  th {
+    background-color: transparent;
+    border: none;
+    border-bottom-color: transparent;
+  }
+  td {
+    border: none;
+  }
+}
+
+.footer-col-1,
+.footer-col-2 {
+  width: -webkit-calc(50% - (#{$spacing-unit} / 2));
+  width:         calc(50% - (#{$spacing-unit} / 2));
+}

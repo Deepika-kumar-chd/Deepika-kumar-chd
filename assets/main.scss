@@ -32,8 +32,30 @@ table {
   }
 }
 
-.footer-col-1,
-.footer-col-2 {
-  width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-  width:         calc(50% - (#{$spacing-unit} / 2));
+footer {
+  background-color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  border-top: 1px solid #ccc;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-info p, .footer-social a {
+  margin: 0 10px;
+}
+
+.footer-social a {
+  text-decoration: none;
+  color: #0073e6;
+}
+
+.footer-social a:hover {
+  color: #005bb5;
 }

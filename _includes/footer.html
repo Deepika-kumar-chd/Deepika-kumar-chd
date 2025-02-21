@@ -1,17 +1,27 @@
 <style>
   footer {
-    background-color: #333;
+    background: linear-gradient(90deg, #2575fc, #6a11cb);
     color: white;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    padding: 15px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
   }
-  footer a {
-    color: #f4a261;
+  .footer-info, .footer-social {
+    display: flex;
+    gap: 15px;
+  }
+  .footer-social a, .footer-info a {
+    color: #ffcc00;
     text-decoration: none;
     font-weight: bold;
+    transition: color 0.3s;
+  }
+  .footer-social a:hover, .footer-info a:hover {
+    color: white;
   }
 </style>
 

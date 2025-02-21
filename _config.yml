@@ -3,3 +3,10 @@ description: Portfolio website showcasing my projects
 github_username: Deepika-kumar-chd
 email: deepika.kumar.chd@gmail.com
 theme: minima
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"

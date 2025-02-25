@@ -38,7 +38,7 @@ Gamma power refers to the **power spectral density (PSD)** in the gamma frequenc
 
 Gamma power is computed using the **Power Spectral Density (PSD)** obtained via **Welch's method**:  
 
-<img src="./images/eeg schiz/psd.png">
+<img src="../images/eegSchiz/psd.png">
 
 Where:
 - X(f) is the Fourier Transform of the EEG signal,  
@@ -47,7 +47,7 @@ Where:
 
 Gamma Power is computed as:
 
-<img src="./images/eeg schiz/gamma.png">
+<img src="../images/eegSchiz/gamma.png">
 
 Where:
 - Pγ is the mean gamma power,  
@@ -56,7 +56,7 @@ Where:
 ### Relative Gamma Power
 Relative gamma power measures the ratio of gamma band power (30-100 Hz) to the total power across all frequencies in an EEG signal. It normalizes gamma power, providing a frequency-independent measure of neural activity. Absolute gamma power can vary due to signal amplitude differences across subjects. The relative measure corrects for these variations. The relative gamma power is the ratio of gamma power to the total power across all frequencies:
 
-<img src="./images/eeg schiz/relgamma.png">
+<img src="../images/eegSchiz/relgamma.png">
 
 Where:
 - P<sub>y</sub><sup>rel</sup> is the relative gamma power, 
@@ -65,7 +65,7 @@ Where:
 ### Connectivity
 Connectivity in EEG refers to how different brain regions communicate with each other. It measures the statistical or functional dependence between EEG signals recorded from different electrodes. In schizophrenia, abnormal connectivity patterns have been widely reported, making it a crucial feature for classification. Studies show weakened connections between distant brain areas, affecting cognition and perception. Some regions may exhibit excessive local connectivity, which disrupts global integration. Connectivity is computed using Pearson correlation, which measures the linear relationship between two EEG channels.
 
-<img src="./images/eeg schiz/connectivity.png">
+<img src="../images/eegSchiz/connectivity.png">
 
 Where:
 - Xi, Xj are EEG signals from two different channels, 
@@ -80,14 +80,14 @@ Phase-Locking Value (PLV) is a measure of neural synchrony, quantifying how cons
 
 **Steps to Compute PLV**
 1.	Compute the analytic signal Xa(t) using the Hilbert Transform:
-<img src="./images/eeg schiz/hilbert.png">
+<img src="../images/eegSchiz/hilbert.png">
 where H(X(t)) is the Hilbert Transform of X(t).
 2.	Extract the instantaneous phase:
-<img src="./images/eeg schiz/angle.png">
+<img src="../images/eegSchiz/angle.png">
 3.	Compute the phase difference between two EEG channels i and j:
-<img src="./images/eeg schiz/phase.png">
+<img src="../images/eegSchiz/phase.png">
 4.	Compute the PLV using the complex exponential function:
-<img src="./images/eeg schiz/plv.png">
+<img src="../images/eegSchiz/plv.png">
 
 Where:
 - N is the number of time points, 
@@ -102,7 +102,7 @@ Extract upper triangular matrix to reduce redundancy.
 ### Coherence
 Coherence measures the synchronization between two EEG signals in the frequency domain. It quantifies how well two signals maintain a constant phase relationship at specific frequencies, indicating functional connectivity between brain regions. Coherence is based on the cross-spectral density (CSD) and power spectral density (PSD) of two signals. Given two EEG signals xi(t) and xj(t) coherence is defined as:  
 
-<img src="./images/eeg schiz/coherence.png">
+<img src="../images/eegSchiz/coherence.png">
 
 Where:
 - Sij(f) is the cross-spectral density (CSD) between channels i and j.

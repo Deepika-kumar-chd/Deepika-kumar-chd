@@ -1,0 +1,10 @@
+title: Deepika Kumar
+description: Portfolio website showcasing my projects
+github_username: Deepika-kumar-chd
+email: deepika.kumar.chd@gmail.com
+theme: minima 
+
+minima:
+  show_excerpts: false
+
+

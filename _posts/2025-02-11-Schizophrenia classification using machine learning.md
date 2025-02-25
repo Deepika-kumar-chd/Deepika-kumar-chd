@@ -38,7 +38,7 @@ Gamma power refers to the **power spectral density (PSD)** in the gamma frequenc
 
 Gamma power is computed using the **Power Spectral Density (PSD)** obtained via **Welch's method**:  
 
-<img src="/images/eegSchiz/psd.png" width="300" height="100">
+<img src="https://github.com/Deepika-kumar-chd/Deepika-kumar-chd/blob/main/images/eegSchiz/psd.png" width="300" height="100">
 
 Where:
 - X(f) is the Fourier Transform of the EEG signal,  

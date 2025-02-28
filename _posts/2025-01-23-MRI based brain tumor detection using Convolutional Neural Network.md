@@ -4,7 +4,7 @@
 Brain tumors are a significant health concern, requiring accurate and timely diagnosis for effective treatment. Traditional diagnostic methods rely on expert radiological interpretation, which can be subjective and time-consuming. Deep learning, particularly CNNs, has demonstrated success in automated medical image classification, reducing diagnostic time and improving accuracy. This project explores the application of deep learning for MRI-based brain tumor classification. Convolutional Neural Network (CNN) model was implemented and trained on an MRI dataset to classify brain scans into two categories. 
 
 ## Dataset and Processing  
-Dataset was downloaded from Kaggle https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection. Dataset consist of total 253 images (155 images of scans with tumor and 98 images without tumor). 
+Dataset was downloaded from [Kaggle](https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection). Dataset consist of total 253 images (155 images of scans with tumor and 98 images without tumor). 
 
 
 <img src="https://deepika-kumar-chd.github.io/Deepika-kumar-chd/images/MRI-CNN/dataset.PNG" >

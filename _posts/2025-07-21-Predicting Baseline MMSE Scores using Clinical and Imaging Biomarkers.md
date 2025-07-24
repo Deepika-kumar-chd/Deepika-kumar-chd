@@ -126,7 +126,7 @@ GridSearchCV was applied to all models to find the best parameters. Performance 
 
 ## Machine Learning Lifecycle:
 
-<img src="https://deepika-kumar-chd.github.io/Deepika-kumar-chd/images/Flowchart.png" width=80% height=100%>
+<img src="https://deepika-kumar-chd.github.io/Deepika-kumar-chd/images/Flowchart.png"  width="1000" height="700">
 
 - Data Ingestion 
 - Data validation

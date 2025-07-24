@@ -8,14 +8,14 @@ This project aims to develop machine learning regression models to predict basel
 ## Dataset and Processing  
 The project uses the ADNI baseline dataset, focusing on the following categories:
 
-1. **Demographic Feature**:
+### **Demographic Feature**:
 - AGE
 
-2. **Genetic Risk Factor**:
+### **Genetic Risk Factor**:
 
 - APOE4 (0, 1, 2 copies of the E4 allele): APOE ε4 is strongly associated with increased risk of Alzheimer’s disease.APOE4 status is often used in cognitive decline and Alzheimer's research as a genetic biomarker.Having one ε4 allele increases Alzheimer's risk by ~2–3x.Having two ε4 alleles increases risk by ~10–15x.
 
-3. **Clinical Cognitive Assessments**: 
+### **Clinical Cognitive Assessments**: 
 
 - ADAS11_bl (Alzheimer's Disease Assessment Scale): It is a standardized test used to assess cognitive dysfunction in individuals with Alzheimer's disease (AD) or Mild Cognitive Impairment (MCI). The ADAS-Cog11 includes 11 tasks that evaluate: Word recall, Naming objects and fingers, Following commands, Constructional praxis (copying shapes), Ideational praxis (doing multi-step tasks), Orientation, Word recognition, Remembering test instructions, Spoken language ability, Word-finding difficulty, Comprehension. The maximum score is 70, but in practice, scores above 40 are rare outside of severe AD cases.
 
@@ -33,7 +33,7 @@ The project uses the ADNI baseline dataset, focusing on the following categories
 
 - FAQ_bl (Functional Activities Questionnaire): It refers to the Functional Activities Questionnaire score assessed at the baseline visit of a subject. It's a clinical tool used to measure a person's ability to perform instrumental activities of daily living (IADLs) — which are more complex than basic self-care tasks. Managing finances, Preparing meals, Shopping alone, Using a telephone, Traveling outside the neighborhood, Handling paperwork, Keeping track of current events, Playing games/hobbies, Remembering appointments, Watching television or reading. Higher FAQ scores = greater functional impairment.
 
-4. **Imaging Biomarkers**:  
+### **Imaging Biomarkers**:  
 
 - Ventricles_bl: It is the volume of the brain ventricles (fluid-filled spaces).As brain tissue shrinks (atrophy), the ventricles enlarge. Larger ventricular volume at baseline often correlates with greater brain atrophy and cognitive decline.
 
@@ -47,7 +47,7 @@ The project uses the ADNI baseline dataset, focusing on the following categories
 
 - MidTemp_bl: Volume of the middle temporal gyrus at baseline. It is important for language and semantic memory. Shrinkage here is associated with language dysfunction in AD.Lower values means poorer language and memory performance
 
-5. **Target Variable**:
+### **Target Variable**:
 
 - MMSE_bl (Mini-Mental State Examination score at baseline): Higher scores indicate better cognitive function. It tests include several cognitive domains like orientation (time and place), registration (repeat named prompts),attention and calculation, recall (short-term memory), language (naming, repetition, comprehension, visuospatial (copying a design)
 
@@ -137,5 +137,5 @@ GridSearchCV was applied to all models to find the best parameters. Performance 
 ## Code Implementation
 For a detailed walkthrough of the code, refer to the project's [GitHub repository](https://github.com/Deepika-kumar-chd/MMSE_Prediction_ML).
 
-Code deployed on https://mmse-prediction.onrender.com
+Code deployed on [Render](https://mmse-prediction.onrender.com).
 
